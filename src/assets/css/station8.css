@@ -1,0 +1,51 @@
+/* header */
+header {
+  background-color: #fff;
+  height: 50px;
+}
+
+/* body */
+body {
+  background-color: #C4C4C4;
+  margin: 0;
+}
+
+/* bord */
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 200px;
+}
+
+/* card */
+.card {
+  background-color: #fff;
+  padding: 10px;
+  margin: 50px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+.card__img-top {
+  width: 288px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+  background-color: #ffffff;
+  height: 50px;
+}
